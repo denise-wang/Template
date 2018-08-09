@@ -1,0 +1,25 @@
+body{
+	background:#999;
+	font-family: Arial;
+}
+
+h1, h2, li{
+	/* 000 is black, 999 is grey --> */
+	color: #555;
+}
+
+a{
+	color: green;
+}
+
+p{
+	background:#666;
+	color: white;
+	/* 1 value: all sides, 2 values: top/bottom and left/right,
+	4 values: (clockwise) top, right, bottom, left */
+	padding: 10px;
+}
+
+.secondary{
+	background:#000;
+}
