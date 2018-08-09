@@ -1,10 +1,11 @@
+/*
 body{
 	background:#999;
 	font-family: Arial;
 }
 
 h1, h2, li{
-	/* 000 is black, 999 is grey --> */
+	// 000 is black, 999 is grey 
 	color: #555;
 }
 
@@ -15,11 +16,60 @@ a{
 p{
 	background:#666;
 	color: white;
-	/* 1 value: all sides, 2 values: top/bottom and left/right,
-	4 values: (clockwise) top, right, bottom, left */
+	// 1 value: all sides, 2 values: top/bottom and left/right,
+	4 values: (clockwise) top, right, bottom, left 
 	padding: 10px;
 }
 
 .secondary{
 	background:#000;
+}
+*/
+
+/* CONTENT FROM VIDEO #3 */
+body{
+	margin: 0;
+}
+
+header{
+	background:#999;
+	color: white;
+	padding: 15px 15px 0 15px;
+}
+
+header h1{
+	margin: 0;
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav ul li{
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15 px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+.row{
+	clear: white;
+}
+
+.col{
+	background: #333;
+	border-radius: 5px;
+	color: white;
+	padding: 10px .5%;
+	float: left;
+	margin: .5%;
+	width: 31%;
 }
